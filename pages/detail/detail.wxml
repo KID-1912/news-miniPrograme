@@ -1,0 +1,19 @@
+<!--pages/detail.wxml-->
+<view class="article">
+  <view><image class="banner" src="{{banner}}"></image></view>
+  <view class="header">
+    <image class="avatar" src="{{author[0].avatar}}"></image>
+    <view class="author"><text>{{author[0].name}}</text></view>
+    <text>发表于</text><view class="date"><text>{{dateTime}}</text></view>
+  </view>
+  <view class="body">
+    <view class="title">{{title}}</view>
+    <view class="bar" bind:tap="barHandle">
+      <image wx:if="{{collected}}" id="collected" class="collection" src="/assets/images/icon/collection.png"></image>
+      <image wx:else id="collected" class="collection" src="/assets/images/icon/collection-anti.png"></image>
+      <image wx:if="{{shared}}" id="shared" class="share" src="/assets/images/icon/share.png"></image>
+      <image wx:else id="shared" class="share" src="/assets/images/icon/share-anti.png"></image>
+    </view>
+    <view class="content"><text user-select>{{content}}</text></view>
+  </view>
+</view>

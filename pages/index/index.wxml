@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <view class="avatar">
+      <open-data type="userAvatarUrl"></open-data>
+    </view>
+    <view class="name"><open-data type="userNickName" lang="zh_CN"></open-data>
+    </view>
+    <view class="info">
+      <view class="city"><open-data type="userCity" lang="zh_CN"></open-data></view>
+      <view class="gender"><open-data type="userGender" lang="zh_CN"></open-data></view>
+    </view>
+  </view>
+</view>

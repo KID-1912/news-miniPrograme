@@ -1,0 +1,56 @@
+/* pages/detail.wxss */
+.article{
+  display: flex;
+  flex-direction: column;
+}
+.banner{
+  width: 100%;
+  height: 340rpx;
+}
+.header{
+  display: flex;
+  margin-top: 20rpx;
+  padding: 0 20rpx;
+  color: #666;
+  font-size: 24rpx;
+  align-items: center;
+}
+.header > .avatar{
+  width: 60rpx;
+  height: 60rpx;
+  margin-right: 16rpx;
+}
+.header > .author{
+  margin-right: 30rpx;
+  color: #333;
+  font-size: 28rpx;
+}
+.header > .date{
+  margin-left: 10rpx;
+}
+
+.body{
+  padding: 0 30rpx 50rpx;
+  color: #666;
+  font-size: 28rpx;
+}
+.title{
+  color: #222;
+  font-size: 30rpx;
+  font-weight: bold;
+  line-height: 2.5;
+}
+.bar{
+  height: 80rpx;
+  text-align: right;
+  background-image: linear-gradient(#fff 48%,#eee 48%,#ddd 52%,#fff 52%);
+}
+.collection,.share{
+  width: 80rpx;
+  height: 80rpx;
+  margin-left: 20rpx;
+}
+.content{
+  margin-top: 20rpx;
+  letter-spacing: 2rpx;
+}

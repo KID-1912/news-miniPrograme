@@ -1,0 +1,11 @@
+<!--pages/news/news.wxml-->
+<import src="./news-item/news-item.wxml"/>
+<view>
+  <swiper class="news-swiper" indicator-dots autoplay 
+  indicator-active-color="#fff">
+    <swiper-item wx:for="{{banners}}" wx:key="index"><image class="banner" src="{{item.imgUrl}}"></image></swiper-item>
+  </swiper>
+  <view wx:for="{{artList}}" wx:key="index" class="art-container">
+    <template is="news-item" data="{{...item}}"></template>
+  </view>
+</view>

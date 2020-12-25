@@ -1,0 +1,10 @@
+/* pages/news/news.wxss */
+@import "news-item/news-item.wxss";
+
+.news-swiper{
+  height: 500rpx;
+}
+.news-swiper .banner{
+  width: 100%;
+  height: 100%;
+}
