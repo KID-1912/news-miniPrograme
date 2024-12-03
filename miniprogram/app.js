@@ -1,5 +1,7 @@
 //app.js
+import * as api from "@api/index";
 
 App({
-  onLaunch: function () {}
+  onLaunch: function () {},
+  api,
 })

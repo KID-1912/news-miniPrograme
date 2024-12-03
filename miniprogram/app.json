@@ -8,6 +8,12 @@
     "navigationBarTitleText": "program",
     "navigationBarTextStyle": "white"
   },
+  "resolveAlias": {
+    "@/*": "/*",
+    "@api/*": "/api/*",
+    "@components/*": "/component/*",
+    "@utils/*": "/utils/*"
+  },
   "style": "v2",
   "sitemapLocation": "sitemap.json"
 }

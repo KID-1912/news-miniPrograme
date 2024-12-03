@@ -44,6 +44,7 @@ miniprogram-template
 ## 封装
 
 - http 请求api
+- config 环境配置
 - Store 官方全局状态管理  
 - watch/computed 官方 behavior
-- 组价库
+- 组价库（todo）
