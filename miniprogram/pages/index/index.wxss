@@ -1,0 +1,5 @@
+/**index.wxss**/
+page{
+  /* color: #fff; */
+  text-align: center;
+}

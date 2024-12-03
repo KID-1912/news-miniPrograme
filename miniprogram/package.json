@@ -1,0 +1,11 @@
+{
+  "name": "miniprogram-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "author": "KID-1912",
+  "license": "ISC",
+  "dependencies": {
+    "wx-promise-pro": "^3.2.4"
+  }
+}
