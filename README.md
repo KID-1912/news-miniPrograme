@@ -40,16 +40,16 @@ miniprogram-template
 - npm支持
 - 小程序API Promise化
 - 路径别名
-- scss/less（todo）
+- scss/less（https://developers.weixin.qq.com/miniprogram/dev/devtools/compilets.html#%E5%BC%80%E5%A7%8B%E4%BD%BF%E7%94%A8）
 - eslint/prettier（todo）
 
 ## 封装
 
 - http 请求api
 - config 环境配置
-- Store 官方全局状态管理  （todo）
-- watch/computed 官方 behavior（todo）
-- 组价库（todo）
+- mobx-miniprogram 基于mobx全局状态管理（https://github.com/wechat-miniprogram/mobx-miniprogram-bindings）
+- miniprogram-computed 官方watch/computed behavior（https://github.com/wechat-miniprogram/computed）
+- 组件库（todo）
 
 ## 其它
 

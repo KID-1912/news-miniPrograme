@@ -34,6 +34,10 @@
     "bundle": false,
     "useIsolateContext": true,
     "useCompilerModule": true,
+    "useCompilerPlugins": [
+      "sass",
+      "less"
+    ],
     "userConfirmedUseCompilerModuleSwitch": false,
     "userConfirmedBundleSwitch": false,
     "packNpmManually": false,

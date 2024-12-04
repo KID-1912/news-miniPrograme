@@ -7,6 +7,9 @@
   "license": "ISC",
   "dependencies": {
     "apifm-wxapi": "^24.11.20",
+    "miniprogram-computed": "^6.0.1",
+    "mobx-miniprogram": "^6.12.3",
+    "mobx-miniprogram-bindings": "^5.0.0",
     "wx-promise-pro": "^3.2.4"
   }
 }
