@@ -1,6 +1,7 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/register/register"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -12,7 +13,8 @@
     "@/*": "/*",
     "@api/*": "/api/*",
     "@components/*": "/component/*",
-    "@utils/*": "/utils/*"
+    "@utils/*": "/utils/*",
+    "@lib/*": "/lib/*"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

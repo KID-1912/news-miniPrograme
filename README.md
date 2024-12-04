@@ -40,11 +40,23 @@ miniprogram-template
 - npm支持
 - 小程序API Promise化
 - 路径别名
+- scss/less（todo）
+- eslint/prettier（todo）
 
 ## 封装
 
 - http 请求api
 - config 环境配置
-- Store 官方全局状态管理  
-- watch/computed 官方 behavior
+- Store 官方全局状态管理  （todo）
+- watch/computed 官方 behavior（todo）
 - 组价库（todo）
+
+## 其它
+
+- WXAPI 提供后端服务
+
+## 性能
+
+### 使用lib取代npm
+
+当依赖的第三方库npm包过大，请改用第三方库的压缩版js，存放到lib中项目引入，如本项目 `/lib/lodash.min.js`

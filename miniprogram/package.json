@@ -6,7 +6,7 @@
   "author": "KID-1912",
   "license": "ISC",
   "dependencies": {
-    "lodash": "^4.17.21",
+    "apifm-wxapi": "^24.11.20",
     "wx-promise-pro": "^3.2.4"
   }
 }

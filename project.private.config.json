@@ -5,5 +5,24 @@
     "compileHotReLoad": true,
     "urlCheck": false
   },
-  "libVersion": "3.6.6"
+  "libVersion": "3.6.6",
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/register/register",
+          "pathName": "pages/register/register",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
 }
