@@ -1,0 +1,60 @@
+module.exports = {
+  root: true,
+  overrides: [
+    {
+      files: ["*.wxml"],
+      parser: "@wxml/parser",
+      plugins: ["wxml"],
+      processor: "wxml/wxml",
+      rules: {
+        "wxml/event-binding-style": ["error", "colon"],
+        "wxml/max-len": ["error", 100],
+        "wxml/no-duplicate-attributes": "warn",
+        "wxml/no-inconsistent-tagname": "error",
+        "wxml/no-vue-directive": "error",
+        "wxml/no-wx-for-with-wx-if": "error",
+        "wxml/quotes": ["warn", "double"],
+        "wxml/report-interpolation-error": "warn",
+        "wxml/report-wxml-syntax-error": "warn",
+        "wxml/report-wxs-syntax-error": "warn",
+        "wxml/wx-key": "warn",
+      },
+    },
+    {
+      files: ["*.js"],
+      parser: "@babel/eslint-parser",
+      parserOptions: {
+        parser: "@babel/eslint-parser",
+        ecmaVersion: 2019,
+        sourceType: "module",
+        ecmaFeatures: {
+          globalReturn: false,
+          impliedStrict: true,
+        },
+        requireConfigFile: false,
+        allowImportExportEverywhere: false,
+      },
+      env: {
+        browser: true,
+        node: true,
+        commonjs: true,
+        es6: true,
+      },
+      extends: ["eslint:recommended", "plugin:prettier/recommended"],
+      rules: {
+        "prettier/prettier": "warn",
+        "no-unused-vars": "off",
+      },
+      globals: {
+        wx: true,
+        App: true,
+        Page: true,
+        getCurrentPages: true,
+        getApp: true,
+        Component: true,
+        requirePlugin: true,
+        requireMiniProgram: true,
+      },
+    },
+  ],
+};

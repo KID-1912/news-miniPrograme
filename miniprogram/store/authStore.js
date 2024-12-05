@@ -1,13 +1,13 @@
-import { makeAutoObservable } from 'mobx-miniprogram';
+import { makeAutoObservable } from "mobx-miniprogram";
 
 class AuthStore {
   // typeof authentication = { openid: string, token: string, uid: number } | null
   constructor() {
-    const authenticationStorage  = wx.getStorageSync('authentication');
-    this.authentication = authenticationStorage ? JSON.parse(authenticationStorage): null;
+    const authenticationStorage = wx.getStorageSync("authentication");
+    this.authentication = authenticationStorage ? JSON.parse(authenticationStorage) : null;
     makeAutoObservable(this, {}, { autoBind: true });
   }
-  get isAuthenticated(){
+  get isAuthenticated() {
     return Boolean(this.authentication);
   }
   get openid() {
@@ -24,11 +24,11 @@ class AuthStore {
   }
   setAuthentication(authentication) {
     this.authentication = authentication;
-    wx.setStorageSync('authentication', JSON.stringify(authentication));
+    wx.setStorageSync("authentication", JSON.stringify(authentication));
   }
-  resetAuthentication(){
+  resetAuthentication() {
     this.authentication = null;
-    wx.removeStorageSync('authentication');
+    wx.removeStorageSync("authentication");
   }
 }
 const authStore = new AuthStore();

@@ -1,4 +1,6 @@
 <!--pages/register/register.wxml-->
 <view class="container">
-  <button type="primary" open-type="getUserInfo" bindgetuserinfo="onButtonRegister" plain>用户注册</button>
+  <button type="primary" open-type="getUserInfo" bind:getuserinfo="onButtonRegister" plain>
+    用户注册
+  </button>
 </view>

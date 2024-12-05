@@ -1,0 +1,23 @@
+{
+  "files.eol": "\n",
+  "editor.tabSize": 2,
+  "eslint.format.enable": true,
+  "eslint.nodePath": "./miniprogram/node_modules",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.prettierPath": "./miniprogram/node_modules/prettier",
+  "editor.formatOnSave": true,
+  "[wxml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": [
+    "javascript",
+    "wxml"
+  ]
+}

@@ -11,5 +11,14 @@
     "mobx-miniprogram": "^6.12.3",
     "mobx-miniprogram-bindings": "^5.0.0",
     "wx-promise-pro": "^3.2.4"
+  },
+  "devDependencies": {
+    "@babel/eslint-parser": "^7.24.1",
+    "@wxml/parser": "^0.4.0",
+    "eslint": "^7.19.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-wxml": "^0.8.0",
+    "prettier": "^2.8.8"
   }
 }

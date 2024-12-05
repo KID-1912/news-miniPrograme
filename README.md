@@ -51,6 +51,16 @@ miniprogram-template
 - miniprogram-computed 官方watch/computed behavior（https://github.com/wechat-miniprogram/computed）
 - 组件库（todo）
 
+## eslint/prettier
+
+**配置文件**：`.eslintrc.js`，`.prettierrc.js`
+
+**拓展配置**：配置rules选项、添加eslint/extends
+
+**wxml配置**：https://github.com/wxmlfile/eslint-plugin-wxml
+
+**注**：小程序开发工具确保已安装eslint、prettier拓展
+
 ## 其它
 
 - WXAPI 提供后端服务
