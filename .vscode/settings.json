@@ -6,11 +6,11 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.prettierPath": "./miniprogram/node_modules/prettier",
   "editor.formatOnSave": true,
-  "[wxml]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[wxml]": {
+    "editor.defaultFormatter": "wechat.miniprogram.wxml-language-features"
   },
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit"

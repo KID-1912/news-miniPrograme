@@ -4,5 +4,7 @@
     <view><text>uid：{{authentication.uid}}</text></view>
   </view>
   <button wx:else type="primary" bind:tap="handleLogin">微信登录</button>
-  <view> </view>
+  <view>
+
+  </view>
 </view>
