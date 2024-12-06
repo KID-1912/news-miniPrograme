@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "pages": [
     "pages/index/index",
@@ -20,4 +21,34 @@
   "style": "v2",
   "lazyCodeLoading": "requiredComponents",
   "sitemapLocation": "sitemap.json"
+=======
+{
+  "pages": [
+    "pages/index/index",
+    "pages/register/register",
+    "package-complaint/pages/index/index"
+  ],
+  "subPackages": [{
+    "root": "packages-complaint",
+    "pages": [
+      "pages/index/index"
+    ]
+  }],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#07c160",
+    "navigationBarTitleText": "program",
+    "navigationBarTextStyle": "white"
+  },
+  "resolveAlias": {
+    "@/*": "/*",
+    "@api/*": "/api/*",
+    "@components/*": "/component/*",
+    "@store/*": "/store/*",
+    "@utils/*": "/utils/*",
+    "@lib/*": "/lib/*"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+>>>>>>> 29bcee804c8dc97415979c78efa5bc0d9fd8f77e
 }
