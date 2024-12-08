@@ -1,6 +1,6 @@
 <!--index.wxml-->
 <view class="container">
-  <view wx:if="{{isAuthenticated}}" a="123">
+  <view wx:if="{{isAuthenticated}}">
     <view><text>uid：{{authentication.uid}}</text></view>
   </view>
   <button wx:else type="primary" bind:tap="handleLogin">微信登录</button>
