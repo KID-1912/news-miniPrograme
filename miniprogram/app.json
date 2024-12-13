@@ -1,11 +1,10 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/register/register",
-    "package-complaint/pages/index/index"
+    "pages/register/register"
   ],
   "subPackages": [{
-    "root": "packages-complaint",
+    "root": "package-complaint",
     "pages": [
       "pages/index/index"
     ]
@@ -18,6 +17,7 @@
   },
   "resolveAlias": {
     "@/*": "/*",
+    "@assets/*": "/assets/*",
     "@api/*": "/api/*",
     "@components/*": "/component/*",
     "@store/*": "/store/*",
@@ -26,5 +26,6 @@
   },
   "lazyCodeLoading": "requiredComponents",
   "style": "v2",
+  "lazyCodeLoading": "requiredComponents",
   "sitemapLocation": "sitemap.json"
 }
